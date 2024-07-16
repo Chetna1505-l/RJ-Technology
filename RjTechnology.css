@@ -1,0 +1,313 @@
+ * {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.heading {
+	justify-content: space-evenly;
+    display: flex;
+    background-color: orange;
+}
+
+.heading b {
+	padding: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.baseColor{
+    color:black;
+}
+
+.contact-section{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.button{
+    background-color: green;
+    color: white;
+    width: 100px;
+    border: none;
+    height: 22px;
+}
+
+.nav-section{
+    display: flex;
+    background-color: cyan;
+    padding: 8px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  .technology{
+    width: 100%;
+  }
+
+
+ul{
+    display: inline;
+    position: absolute;
+    background-color: blue transparent;
+    left: 0;
+    right: 0;
+    top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    display:flex;
+    list-style: none;
+    gap:10px;
+}
+.contain{
+    position: absolute;
+    top:100px;
+    left:100px;
+    color:white;
+}
+
+.formss{
+    width: 23%;
+    height: 50vh;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    padding: 2%;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+}
+.formss button{
+    background-color: #79c3dc;
+    border: none;
+    height: 24px;
+    width: 100px;
+    border-radius: 5px;
+}
+.tech1{
+    position: absolute;
+    top:100px;
+    left:100px;
+    color:white;
+    margin-top:10px;
+    width: 50%;
+
+}
+.tech1 button{
+    margin-top:10px;
+
+}
+
+.logo{
+    width: 100%; 
+    height: 55vh;
+}
+
+.form i{
+    margin-right: 4px;
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2%;
+}
+
+.features{
+    text-align: center;
+    padding: 0 10%;
+}
+
+.features h3{
+    margin-bottom: 2%;
+
+}
+
+
+.input1 .submit-button{
+    justify-content: center;
+    display: flex;
+}
+
+.keys
+{
+    display: flex;
+    gap: 20px;
+    margin:20px 0;
+}
+
+.paragraph1
+{
+    font-size: 14px;
+    height: auto;
+    width: 40%;
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.our{
+    margin-bottom:40px;
+
+}
+.full{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 40px;
+    gap: 30px;
+    margin-bottom: 5%;
+}
+
+.heading1{
+    background-color:teal;
+    color:white;
+}
+
+.stack.button {
+background-color: teal;
+}
+
+.stack
+{
+    width:200px;
+    border: 2px solid teal;
+}
+.heading4
+{
+    padding: 15px;
+}
+
+.button123
+{
+    margin:20px;
+    background-color: teal;
+    color:white;
+    margin-bottom: 50px;
+}
+
+.main{
+    background-color:aqua;
+    color:black;
+    height: 30vh;
+    display: flex;
+    font-size: 12px;
+    padding:2%;
+} 
+
+.main div{
+    width: 25%;
+}
+
+.main p{
+    width: 70%;
+    margin-top: 12%;
+}
+.last button{
+    color: black;
+    height: 50px;
+}
+
+@media (max-width: 1200px) {
+    .tech1 {
+        position: static;
+        width: 80%;
+        position: absolute;
+    }
+
+    .formss {
+        border: 1px solid;
+        position: unset;
+        width: 94%;
+        padding: 3%;
+        margin: 2%;
+    }
+
+    .nav-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .keys {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .full {
+        grid-template-columns: 50% 50%;
+    }
+
+    .stack {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .keys {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .full {
+        grid-template-columns: 100%;
+    }
+
+    .stack {
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main div {
+        width: 100%;
+    }
+
+    .main p {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading b {
+        font-size: 10px;
+    }
+
+    .button, .formss button {
+        width: 80px;
+        height: 20px;
+    }
+
+    .input1 input, .input1 select {
+        width: 100%;
+    }
+}
